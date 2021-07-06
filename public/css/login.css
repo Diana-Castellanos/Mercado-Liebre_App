@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main section article {
+    background-color:white;
+    box-shadow: 0px 0px 0px;
+    margin: 0px 0px;
+}
+
+section div form input{
+    width:50%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+section article div.buttons{
+    top: 5px;
+}
+
+#Enviar{
+    padding:3px;
+    color:#FFFFFF;
+    background-color:greenyellow;
+    border:2px solid #000000;
+    border-radius: 5px;
+    width:50px;
+    margin-top:20px;
+}
+
+article:hover #Enviar{
+    background-color:#0022aa;
+}

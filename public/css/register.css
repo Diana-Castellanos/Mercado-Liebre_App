@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"Roboto", sans-serif;
+    font-size:12px;
+    background:#ebebeb;
+}
+
+h2{
+    font-size:24px;
+}
+h3{
+    font-size: 16px;
+}
+h4{
+    font-size: 14 px;
+}
+
+div.top-header{
+    display:flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+header div.top-header p{
+    width:100%;
+    text-align:center;
+    margin-top: 10px;
+}
+
+header{
+    background-color: #eac926;
+}
+
+header div.logo, header .input-group{
+    width:50%;
+}
+
+header div.logo{
+    padding: 10px;
+}
+
+header .input-group{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size:11px;
+}
+
+header nav{
+    margin-left:25 px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration:none;
+    color:black;
+}
+
+header .input-group .input{
+    background-color: white;
+    border: 1px solid black;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+
+header .input-group .submit{
+    color: #666;
+    position: relative;
+    left:-20px;
+}
+
+div.burger-menu{ 
+    text-align: center;
+}
+
+div.burger-menu i{
+    font-size: 18px;
+    color:white;
+    width:20px;
+    height: 20px;
+    background:blue;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    margin-left:50px;
+}
+
+section.banner img{
+    width:100%;
+}
+
+main{
+    margin-top: 5px;
+    margin-left:35px;
+    margin-right:20px;
+    margin-bottom: 5px;
+    text-align:center;
+    background-color: white;
+}
+
+main div.datos{
+    margin-top:5px;
+}
+
+main div.dato{
+    margin-top:20px;
+    box-sizing: border-box;
+}
+
+main section article.art {
+    background-color: white;
+    box-shadow: 0px 0px 0px;
+}
+
+section div form input, textarea{
+    width:50%;
+    border-radius: 5px;
+}
+
+main section.checkbox{
+    text-align: left;
+}
+
+main section article h3{
+    text-align: center;
+}
+
+main section article div.intereses{
+    margin-left:40%;
+}
+
+main section article div input#pass{
+    width: 50%;
+    text-align:center;
+    border-radius:5px;
+}
+
+.buttons{
+    top:20px;
+}
+
+#enviar, #borrar{
+    padding:3px;
+    color:#FFFFFF;
+    background-color:blue;
+    border:2px solid #000000;
+    border-radius:5px;
+    width:50px;
+    margin-top:20px;
+}
+
+

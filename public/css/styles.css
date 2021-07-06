@@ -1,0 +1,349 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"Roboto", sans-serif;
+    font-size:12px;
+    background:#ebebeb;
+}
+
+h2{
+    font-size:24px;
+}
+h3{
+    font-size: 16px;
+}
+h4{
+    font-size: 14 px;
+}
+
+div.top-header{
+    display:flex;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+header div.top-header p{
+    width:100%;
+    text-align:center;
+    margin-top: 10px;
+}
+
+header{
+    background-color: #eac926;
+}
+
+header div.logo, 
+header div.input-group
+.input
+.submit{
+    width:50%;
+}
+
+header div.logo{
+    padding: 10px;
+    float:left;
+}
+
+header div.input-group{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size:11px;
+}
+
+header nav{
+    margin-left:25 px;
+    display:none;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration:none;
+    color:black;
+}
+
+header .input-group .input{
+    background-color: white;
+    border: 1px solid black;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+
+header .input-group .submit{
+    color: #666;
+    position: relative;
+    left:-20px;
+}
+
+div.burger-menu{ 
+    text-align: center;
+}
+
+div.burger-menu i{
+    font-size: 18px;
+    color:white;
+    width:20px;
+    height: 20px;
+    background:#0044AA;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+
+div.last-visit, div.offers{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.precio{
+    font-size: 18px;
+    font-weight: normal;
+    width: 30%;
+    color: #39b54a;
+}
+
+.descuento{
+    font-size:16px;
+    font-weight: normal;
+    width: 70%;
+}
+
+.descripcion{
+    color:#666;
+    visibility: hidden;
+    margin-top:20px;
+}
+
+section.banner img{
+    width:100%;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article{
+    background-color: white;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+main section article img{
+    width:100%;
+}
+
+main section article i{
+    display: block;
+    color:#39b54a;
+    font-size: 16px;
+    padding: 5px;
+    width:30px;
+    height:30px;
+    border: 1px solid #39b54a;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+main section h2{
+    margin: 20px 0px 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+article div.main-product{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding:15px;
+}
+
+.input-text{
+    text-align: center;
+    position:relative;
+    margin:auto;
+}
+
+footer{
+    background-color: #eac926;
+    margin-top: 20px;
+    padding: 10px 
+}
+
+footer section article{
+    display:inline-block;
+    align-items:center;
+    width: 100%;
+}
+
+.pago, .envio, .seguridad{
+    text-align: center;
+}
+
+footer section article i{
+    color:blue;
+    font-size:2em;
+    margin-bottom: 10px;
+}
+
+section div.derechos{
+    padding:10px;
+    font-size:11px;
+    text-align:center;
+}
+
+@media (min-width:361px){
+
+    body header nav{
+        display:block;
+    }
+
+    .descripcion{
+        visibility:hidden;
+    }
+
+    main section article .descripcion{
+        display: block;
+    }
+
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+    }
+
+    main section div.products{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    main section div.products article{
+        width:45%;
+    }
+
+    main section article div.logo, .input-group{
+        width:50%;
+    }
+
+    .precio, .descuento{
+        width:50%;
+    }
+
+    ul, li{
+        display:inline;
+    }
+
+    li{
+        padding-right: 5px;
+        margin-left: 0.1em;
+        font-size: 8px;
+    }
+
+    .hiper,.ul-hiper{
+        width:50%
+    }
+
+    .ul-hiper{
+        float:right;
+    }
+
+    footer section article{
+        display:inline-block;
+        align-items:center;
+        width: 30%;
+    }
+}
+
+@media (min-width:769px){
+    main section div.products article{
+        width:22%
+    }
+
+    main section div.products article{
+        margin-bottom: 10px;
+        box-shadow: none;
+    }
+
+    main section div.products article:hover{
+        margin-bottom:10px;
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+    }
+
+    header div.logo, .input-group, .input-text{
+        width:33%;
+    }
+
+    main section article i{
+        animation:rotate 1s;
+    }
+
+    .precio{
+        font-size: 1.3em;
+        width:60%;
+    }
+
+    .descuento{
+        font-size: 1em;
+        width:40%;
+    }
+
+    li{
+        padding-right: 20px;
+        margin-left: 1em;
+        font-size: 12px;
+    }
+
+    footer section article{
+        display:inline-block;
+        align-items:center;
+        width: 33%;
+    }
+
+}
+
+@keyframes rotate{
+    0%{
+        transform:rotate(0);
+    }
+    100%{
+        transform:rotate(90deg);
+    }
+}
+
+
+main section article div i:hover{
+    transform:rotate(90deg);
+}
+
+main section div.products article:hover{
+    margin-bottom:10px;
+    box-shadow: 0px 0px 10px rgb(100,100,100);
+}
+
+article:hover .descripcion{
+    visibility: visible;
+}
+
+footer section article div i:hover{
+    color:black;
+}
+
+
+
+
+
+
